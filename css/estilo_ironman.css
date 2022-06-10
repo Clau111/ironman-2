@@ -6,15 +6,15 @@ padding: 0;
 box-sizing: border-box;
 }
 
+
+
 body{
 	font-family: 'Poppins', sans-serif;
 	background-color: #848489;
     color: #03051C;
 }
 
-/*Los ID siempre tienen que ir con CSS con simbolo # aqui siempre */
 
-/*y se convierten en etiquetas directamente eliminado los # */
 main{
 width: 1000px;
 height: 700px;
@@ -328,7 +328,7 @@ margin-left: 50px;
 
 /* General*/
 
-@media (max-width:  767px) {
+@media (min-width:  300px) and (max-width:  767px) {
  
 main{
 width: auto;
@@ -362,8 +362,8 @@ background-position: center;
 padding: 20px 55px; 
 font-size: 20px;
 border-radius: 12px; 
-margin-left: 50px;
-top: 63%;
+margin-left: 70px;
+top: 55%;
 }
 
 
@@ -510,11 +510,11 @@ background-size: cover;
 }
 
 .boton-index {
-padding: 18px 50px; 
+padding: 20px 55px; 
 font-size: 18px;
 border-radius: 12px; 
-margin-left: 55px;
-top: 72%;
+margin-left: 80px;
+top: 68%;
 }
 
 
@@ -550,6 +550,7 @@ font-size:18px;
 
 .h4-sinopsis{
 margin-left: 410px;
+margin-top: 20px;
 }
 
 /* :::: PERSONAJES ::::*/
@@ -587,13 +588,13 @@ padding-bottom: 60px;
 
 #article1-conta{
 width: 100%;
-height: 545px;
+height: 600px;
 background-color: transparent;
 }
 
 #article2-conta{
 width: 100%;
-height: 545px;
+height: 500px;
 background-image:url(../img/img_concurso.jpg);
 background-repeat: no-repeat;
 background-size: cover;
