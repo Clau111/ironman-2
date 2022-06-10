@@ -2,7 +2,7 @@ Ironman 2 - Claudio Rojas - Uces 2022
 
 
 url bajada
-https://github.com/Clau111/ironman2.git
+https://github.com/Clau111/ironman-2.git
 
 url sitio
-https://clau111.github.io/ironman2/
+https://clau111.github.io/ironman-2/
