@@ -57,7 +57,7 @@ text-decoration: none;
 border-radius: 6px; 
 margin-left: 45px;
 position: absolute;
-top: 58%;
+margin-top: 40px;
 transform: translate(0, 0%);
 }
 
@@ -123,6 +123,13 @@ h3{
 font-weight:300;
 font-size:12px;
 color:#81828D;
+}
+
+.claudio-footer{
+font-weight:300;
+font-size:12px;
+color:#81828D;
+text-decoration:none;
 }
 
 /* INDEX */
@@ -335,8 +342,23 @@ width: auto;
 }
 
 header{
-width: auto;
-height: 105px;
+width: 100%;
+height: 142px;
+}
+
+nav a{
+    font-size:20px;
+    } 
+
+nav li{
+    width:100%;
+    padding:4px;
+    margin-left: 20px;
+    margin-right: 15px;
+    }
+
+.logo-ironman{
+   width: 300px;
 }
 
 section{
@@ -346,8 +368,12 @@ height: 1100px;
 
 footer{
 width: 100%;
-height: 50px;
+height: 60px;
 position: absolute;
+}
+
+.claudio-footer{
+    font-size:15px;
 }
 
 /* :::: INDEX ::::*/
@@ -355,7 +381,7 @@ position: absolute;
 .section-index{
 background-image:url(../img/background-movil.jpg);
 background-repeat: no-repeat;
-background-position: center;
+background-position: left;
 }
 
 .boton-index {
@@ -371,32 +397,32 @@ top: 55%;
 
 #article1-sinop{
 width: 100%;
-height: 600px;
-padding-right: 40px;
+height: 850px;
+padding-right: 20px;
 }
 
 #galeria {
-margin-left: 150px; 
-margin-right: 100px; 
+margin-left: 50px; 
+margin-right: 20px; 
+margin-top: 90px;
 }
 
 #article2-sinop{
-width: 100%;
-height: 500px;
-padding-left: 150px;
-padding-right: 100px;
+display: none;
 }
 
 .h1-sinopsis{
-font-size:45px;
+font-size:50px;
 }
 
 .h2-sinopsis{
-font-size:20px;
+font-size:27px;
+margin-top: 20px;
 }
 
 .h4-sinopsis{
-margin-left: 310px;
+margin-left: 160px;
+font-size:19px;
 }
 
 
@@ -404,9 +430,9 @@ margin-left: 310px;
 .seccion-personajes{
 width: 100%;
 height: 1100px;
-padding-top: 50px;
-padding-left: 190px;
-padding-right: 150px;
+padding-top: 80px;
+padding-left: 70px;
+padding-right: 70px;
 padding-bottom: 60px;
 overflow: auto;
 }
@@ -414,29 +440,30 @@ overflow: auto;
 .card{
     width: 100%;
     display: flex;
-   
     justify-content: center;
 }
 
 .card-perfil{
-    width: 360px; 
+    width: 660px; 
     padding: 40px;
     padding-bottom: 55px;
 }
 
 .vermas{
+    margin-top: 20px;
     padding: 10px 25px;
     color: #ffffff;
     text-decoration: none;
     border-radius: 20px;
+    font-size: 27px;
 }
 
 .h2-personajes{
-    font-size: 30px;
+    font-size: 36px;
 }
 
 .p-personajes{
-    font-size: 18px;
+    font-size: 23px;
 }
 
 /* CONCURSO */
@@ -445,6 +472,11 @@ overflow: auto;
 width: 100%;
 height: 600px;
 background-color: transparent;
+}
+
+form{
+    width: 470px;
+    margin-top: 25px;
 }
 
 #article2-conta{
@@ -459,10 +491,14 @@ background-size: cover;
 display:none !important;
 }
 
+.cajas{
+    height: 35px;
+}
+
 .btn{
-    width: 170px;
+    width: 100%;
     height: 50px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .h1-contacto{
@@ -470,7 +506,7 @@ font-size:45px;
 }
 
 .h2-contacto{
-font-size:25px;
+font-size:29px;
 }
 
 }
@@ -488,6 +524,10 @@ width: auto;
 height: 105px;
 }
 
+nav a{
+    font-size:16px;
+    } 
+
 section{
 width: auto;
 height: 1100px;
@@ -499,6 +539,9 @@ height: 50px;
 position: relative;
 }
 
+.claudio-footer{
+    font-size:17px;
+}
 
 /* :::: INDEX ::::*/
 
@@ -510,11 +553,11 @@ background-size: cover;
 }
 
 .boton-index {
-padding: 20px 55px; 
-font-size: 18px;
-border-radius: 12px; 
-margin-left: 80px;
-top: 68%;
+padding: 20px 60px; 
+font-size: 25px;
+border-radius: 16px; 
+margin-left: 50px;
+margin-top: 450px;
 }
 
 
@@ -524,20 +567,18 @@ top: 68%;
 width: 100%;
 height: 600px;
 padding-right: 40px;
-float: left;
 }
 
 #galeria {
 margin-left: 150px; 
-margin-right: 150px; 
+margin-right: 50px; 
 }
 
 #article2-sinop{
 width: 100%;
 height: 500px;
-padding-left: 250px;
+padding-left: 150px;
 padding-right: 100px;
-float: right;
 }
 
 .h1-sinopsis{
@@ -545,21 +586,22 @@ font-size:40px;
 }
 
 .h2-sinopsis{
-font-size:18px;
+font-size:20px;
 }
 
 .h4-sinopsis{
-margin-left: 410px;
+margin-left: 260px;
 margin-top: 20px;
+font-size: 18px;
 }
 
 /* :::: PERSONAJES ::::*/
 .seccion-personajes{
 width: 100%;
 height: 1100px;
-padding-top: 50px;
-padding-left: 100px;
-padding-right: 100px;
+padding-top: 80px;
+padding-left: 50px;
+padding-right: 50px;
 padding-bottom: 60px;
 }
 
@@ -590,6 +632,8 @@ padding-bottom: 60px;
 width: 100%;
 height: 600px;
 background-color: transparent;
+padding-left: 100px;
+margin-top: 20px;
 }
 
 #article2-conta{
@@ -600,22 +644,30 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+form{
+    width: 470px;
+}
+
+.cajas{
+    height: 30px;
+}
+
 .img-concurso{
 display:none !important;
 }
 
 .btn{
-    width: 160px;
+    width: 100%;
     height: 45px;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .h1-contacto{
-font-size:42px;
+font-size:45px;
 }
 
 .h2-contacto{
-font-size:22px;
+font-size:25px;
 }
 
 }
@@ -625,7 +677,9 @@ font-size:22px;
 
 @media (min-width:  992px) and (max-width:  1199px) {
 
-
+.boton-index {
+margin-top: 280px;
+}
 
 }
 
@@ -636,7 +690,7 @@ font-size:22px;
 
 /* :::: INDEX ::::*/
 .boton-index {
-top: 55%;
+margin-top: 280px;
 }
 
 /* :::: SINOPSIS ::::*/
